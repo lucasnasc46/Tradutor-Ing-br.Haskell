@@ -12,9 +12,9 @@ main = do
   writeFile "traducao.txt"(sep1 x) 		-- escrita da traduçao no arquivo
  
  
- --funçao que vai dividir a lista de string em strings
+--funçao que vai dividir a lista de string em strings
 
- sep :: [String] -> String
+sep :: [String] -> String
 sep [] = []
 sep (a:b) = minus a ++ " " ++ sep b
 
